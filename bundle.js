@@ -1,15 +1,10 @@
 "use strict";
 
-var arr = [1, 3, 4, 5, 6];
-var newArray = arr.map(function (item) {
-  return item * 2;
-});
-console.log(newArray);
-
-var teste = function teste() {
-  return {
-    nome: 'Leonardo'
-  };
+var nome = "Leonardo";
+var idade = 14;
+var usuario = {
+  nome: nome,
+  idade: idade,
+  empresa: 'Rocketseat'
 };
-
-console.log(teste());
+console.log(usuario);

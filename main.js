@@ -1,10 +1,10 @@
-const arr = [1, 3, 4, 5, 6];
+const nome = "Leonardo";
+const idade = 14;
 
-const newArray = arr.map(item => item * 2);
-  
+const usuario = {
+  nome,
+  idade,
+  empresa: 'Rocketseat'
+}
 
-console.log(newArray)
-
-const teste = () => ({ nome: 'Leonardo' })
-
-console.log(teste());
+console.log(usuario)
